@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px black;
+  overflow-y: scroll;
+  flex-grow: 1;
+  height: 475px;
+  align-content: flex-start;
+}
+
+.box-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-controls > button {
+  all: unset;
+  background-color: purple;
+  color: white;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.box-controls > input {
+  all: unset;
+  border: solid 0.5px gray;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.box-controls > button:hover {
+  transform: scale(1.05);
+}
